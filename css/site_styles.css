@@ -10,3 +10,11 @@
     width: 100%;
     padding-left: 8px;
 }
+
+.content {
+    font-size: 18px;
+}
+
+.content .row {
+    margin-top: 15px;
+}
