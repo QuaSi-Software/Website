@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="row" style="margin-top: 30px">
+    <!-- Spacer -->
+</div>
+
+<div class="container">
+    <h3>Newest posts</h3>
+    {% for item in site.news %}
+        <hr class="post-divider"/>
+        <div class="post">
+            <h4 class="post-title"><a href="{{item.url}}">{{item.title}}</a></h4>
+            <div class="post-date">Published: {{item.date | date_to_long_string}}</div>
+            <div class="post-content">{{item.content | truncatewords: 50}}</div>
+        </div>
+    {% endfor %}
+</div>
+
+<div class="row" style="margin-top: 50px">
+    <!-- Spacer -->
+</div>
