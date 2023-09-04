@@ -17,6 +17,10 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+.navbar-nav .current {
+    font-weight: bold;
+}
+
 .nav-item {
     margin-right: auto;
 }
