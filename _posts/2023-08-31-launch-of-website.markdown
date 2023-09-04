@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Launch of our new website"
-date:   2023-08-31 10:55:34 +0200
+layout: entry
+title: "Launch of our new website"
+date: 2023-08-31 10:55:34 +0200
 categories: news
 ---
 We are proud to present our new website, which offers news, contacts and other information on the QuaSi project.

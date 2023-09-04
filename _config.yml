@@ -10,15 +10,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Collections, mostly for post-like short articles
-collections:
-  news:
-    is_post_like: true
-  publications:
-    is_post_like: true
-  releases:
-    is_post_like: true
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -7,7 +7,7 @@ layout: default
 
 <div class="container">
     <h3>Newest releases</h3>
-    {% for item in site.releases %}
+    {% for item in site.categories["release"] %}
         <hr class="post-divider"/>
         <div class="post">
             <h4 class="post-title"><a href="{{item.url}}">{{item.title}}</a></h4>
