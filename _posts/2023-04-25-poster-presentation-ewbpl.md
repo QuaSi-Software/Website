@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 The project team attended the "13. Projektleitungstreffen der Begleitforschung Energiewendebauen" and presented a poster about the QuaSi project, which was well received by other attendees.
 
-You can view the poster online [here](/static/230420_poster_pl_meeting.pdf).
+You can view the poster online [here]({{'/static/230420_poster_pl_meeting.pdf' | absolute_url}}).
 
 <!--more-->
 

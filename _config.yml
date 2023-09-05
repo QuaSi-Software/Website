@@ -3,7 +3,7 @@ email: quasi-software@siz-energieplus.de
 description: >- # this means to ignore newlines until "baseurl:"
   News, contacts and other information on the QuaSi project.
 baseurl: ""
-url: "http://quasi-software.org"
+url: "https://quasi-software.github.io/Website/"
 
 # Build settings
 theme: minima
