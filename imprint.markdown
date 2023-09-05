@@ -26,7 +26,7 @@ Hamburger Straße 277
 
 ### Urheberrecht
 Wo nicht anders angegeben ist der Quellcode der Seiten unter der MIT Lizenz veröffentlicht.
-[Der Lizenztext](/license) definiert die Nutzungsbedingungen die jeglicher Nutzung unterliegen.
+[Der Lizenztext]({{'license' | absolute_url}}) definiert die Nutzungsbedingungen die jeglicher Nutzung unterliegen.
 Die darin genannten Personen sind als Autor*innen im Sinne des Urheberrechts zu verstehen.
 Dies umfasst nicht eingebundene und verlinkte externe Inhalte. Nur Inhalte, die Teil des Repository
 der Seiten sind, sind von der Lizenz gedeckt.
