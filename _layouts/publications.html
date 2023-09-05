@@ -9,10 +9,10 @@ layout: default
 {% for item in site.categories["publication"] %}
     <hr class="post-divider"/>
     <div class="post">
-        <h4 class="post-title"><a href="{{item.url}}">{{item.title}}</a></h4>
+        <h4 class="post-title"><a href="{{item.url | absolute_url}}">{{item.title}}</a></h4>
         <div class="post-date">Published: {{item.date | date_to_long_string}}</div>
         <div class="post-content">{{item.excerpt}}</div>
-        <div class="post-readmore"><a href="{{item.url}}">Read more</a></div>
+        <div class="post-readmore"><a href="{{item.url | absolute_url}}">Read more</a></div>
     </div>
 {% endfor %}
 

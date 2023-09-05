@@ -7,26 +7,26 @@
         <meta name="author" content="" />
         <title>QuaSi Software</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{'/assets/favicon.png' | absolute_url}}" />
+        <link rel="icon" type="image/x-icon" href="{{'assets/favicon.png' | absolute_url}}" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{{'/css/styles.css' | absolute_url}}" rel="stylesheet" />
+        <link href="{{'css/styles.css' | absolute_url}}" rel="stylesheet" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
         <!-- Custom CSS -->
-        <link href="{{'/css/site_styles.css' | absolute_url}}" rel="stylesheet" />
+        <link href="{{'css/site_styles.css' | absolute_url}}" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-md navbar-light bg-light static-top">
             <div class="container d-inline-flex flex-column">
                 <p>
-                    <a href="/"><img id="header-logo" src="{{'/assets/quasi_logo_nobg.png' | absolute_url}}"/></a>
+                    <a href="{{'' | absolute_url}}"><img id="header-logo" src="{{'assets/quasi_logo_nobg.png' | absolute_url}}"/></a>
                 </p>
 
                 <p id="header-logo-subtitle">
@@ -41,7 +41,7 @@
                     <ul class="navbar-nav mr-auto">
                         {% for item in site.data.navigation %}
                         <li class="nav-item {% if page.url == item.link %}current{% endif %}">
-                            <a class="nav-link" href="{{item.link}}">{{item.name}}</a>
+                            <a class="nav-link" href="{{item.link | absolute_url}}">{{item.name}}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -80,6 +80,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Custom JS-->
-        <script src="{{'/js/scripts.js' | absolute_url}}"></script>
+        <script src="{{'js/scripts.js' | absolute_url}}"></script>
     </body>
 </html>
