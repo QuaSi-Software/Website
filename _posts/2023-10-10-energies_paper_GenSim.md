@@ -6,7 +6,7 @@ categories: publication
 excerpt_separator: <!--more-->
 ---
 
-New publication in Energies Special Issue "Energy Efficiency through Building Simulation" about our tool *GenSim*:
+New publication in Energies Special Issue ["Energy Efficiency through Building Simulation"](https://www.mdpi.com/journal/energies/special_issues/YGF85YY6B8) about our tool *GenSim*:
 
 **Automated Generation of Energy Profiles for Urban Simulations**, open accessable [here.](https://doi.org/10.3390/en16176115)
 
