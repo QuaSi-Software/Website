@@ -7,13 +7,10 @@ excerpt_separator: <!--more-->
 ---
 
 New publication in Energies Special Issue "Energy Efficiency through Building Simulation" about our tool *GenSim*:
-**Automated Generation of Energy Profiles for Urban Simulations**, open accessable at:
 
-[https://doi.org/10.3390/en16176115](https://doi.org/10.3390/en16176115)
+**Automated Generation of Energy Profiles for Urban Simulations**, open accessable [here.](https://doi.org/10.3390/en16176115)
 
-Citation:
-
-Maile, T.; Steinacker, H.; Stickel, M.W.; Ott, E.; Kley, C.: Automated Generation of Energy Profiles for Urban Simulations. Energies 2023, 16, 6115
+Citation: Maile, T.; Steinacker, H.; Stickel, M.W.; Ott, E.; Kley, C.: Automated Generation of Energy Profiles for Urban Simulations. Energies 2023, 16, 6115
 
 <!--more-->
 
