@@ -10,6 +10,9 @@ We have released the new version 2.15 of our tool GenSim that is now fully open 
 
 The latest release can be found [here](https://github.com/QuaSi-Software/GenSim/releases) and a detailed manual is available within the [documentation of the QuaSi-Projekt](https://quasi-software.readthedocs.io/en/latest/gensim_user_manual/).
 
+<div class="row">
+    <img class="col" src="{{'assets/gensim_logo.jpg' | absolute_url}}" style="max-width: 400px; padding: 0"/>
+</div>
 
 <!--more-->
 
