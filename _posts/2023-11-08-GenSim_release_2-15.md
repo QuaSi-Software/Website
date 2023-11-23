@@ -14,6 +14,8 @@ The latest release can be found [here](https://github.com/QuaSi-Software/GenSim/
     <img class="col" src="{{'assets/gensim_logo.jpg' | absolute_url}}" style="max-width: 400px; padding: 0"/>
 </div>
 
+For citation of this release, use the following DOI: [https://doi.org/10.5281/zenodo.10200808](https://doi.org/10.5281/zenodo.10200808)
+
 <!--more-->
 
 What is GenSim?
