@@ -18,7 +18,7 @@ For citation of this release, use the following DOI: [https://doi.org/10.5281/ze
 
 <!--more-->
 
-What is GenSim?
+What is GenSim? (extracted from the [manual](https://quasi-software.readthedocs.io/en/latest/gensim_user_manual/#1-what-is-gensim))
 
 GenSim - for "generic building simulation" - is a building simulation software using the EnergyPlus® simulation engine to generate high-resolution heating and cooling demand profiles as well as electricity demand profiles for buildings with various types of use. "Generic" in this context refers to a "generally valid" building model. This means that the software is versatile enough to simulate any type of building in a very flexible and simplified way, enabling users to efficiently adapt the software for any building design.
 
