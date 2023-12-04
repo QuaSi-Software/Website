@@ -8,9 +8,9 @@ excerpt_separator: <!--more-->
 
 New publication about our simulation tool *ReSiE* in the Journal of Phyics:
 
-**Dynamic open-source simulation engine for generic modeling of district-scale energy systems with focus on sector coupling and complex operational strategies**, open accessable [here.](https://doi.org/https://doi.org/10.1088/1742-6596/2600/2/022009)
+**Dynamic open-source simulation engine for generic modeling of district-scale energy systems with focus on sector coupling and complex operational strategies**, open accessable [here.](https://doi.org/10.1088/1742-6596/2600/2/022009)
 
-The paper was published as conference paper within the [Cisbat conference 2023](https://cisbat.epfl.ch), Lausanne. It describes the general functionality of the simulation engine *ReSiE* for the simulation of sector-coupled energy systems at a district scale and includes an example of its capabilities in modeling different operational strategies.
+The paper was published as a conference paper as part of the [Cisbat conference 2023](https://cisbat.epfl.ch), Lausanne. It describes the general functionality of the simulation engine *ReSiE* for the simulation of sector-coupled energy systems at a district scale and includes an example of its capabilities in modeling different operational strategies.
 
 Citation: Ott, E.; Steinacker, H.; Stickel, M.; Kley, C. and Fisch, M.N.: Dynamic open-source simulation engine for generic modeling of district-scale energy systems with focus on sector coupling and complex operational strategies, 2023, Journal of Physics: Conference Series 2600, 022009.
 
