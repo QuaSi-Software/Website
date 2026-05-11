@@ -10,6 +10,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# theme / style settings
+sass:
+  quiet_deps: true # silences warnings from dependencies such as the minima theme.
+                   # this is not ideal, but due to compatability constrains, we don't want
+                   # warnings on our code being swamped by warnings of code we can't change
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
