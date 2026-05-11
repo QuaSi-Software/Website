@@ -14,7 +14,7 @@ The simulation is based on a weather file, which can be either an EWP file (Ener
 The latest release can be found [here](https://github.com/QuaSi-Software/SoDeLe/releases) and a short user manual is available within the [README of the repository](https://github.com/QuaSi-Software/SoDeLe).
 
 <div class="row">
-    <img class="col" src="{{'assets/sodele_logo.jpg' | absolute_url}}" style="max-width: 400px; padding: 0"/>
+    <img class="col" src="{{'assets/logos/sodele.svg' | absolute_url}}" style="max-width: 400px;"/>
 </div>
 
 <!--more-->
