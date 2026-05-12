@@ -1,5 +1,6 @@
 #header-logo {
     max-width: 400px;
+    max-height: 90px;
 }
 
 #navbar {
@@ -48,4 +49,33 @@
 
 .post-content {
     margin-top: 15px;
+}
+
+.tool-logo {
+    max-height: 100px;
+    margin-top: 15px;
+}
+
+.h-line {
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid #80808075;
+    margin: 20px 0;
+}
+
+#carouselScreenshots {
+    padding: 20px;
+    border: 3px solid #8080804d;
+    border-radius: 10px;
+    max-width: 1000px;
+    height: 500px;
+}
+
+#carouselScreenshots .carousel-control-prev,
+#carouselScreenshots .carousel-control-next {
+    width: 5%
+}
+
+#carouselScreenshots .carousel-inner {
+    height: 100%;
 }

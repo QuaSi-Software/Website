@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<p>
+    <img class="tool-logo" src="{{page.logo_url | absolute_url}}"/>
+</p>
+
+<p>
+    {{ page.description }}
+</p>
+
+<p>
+    <a href="{{page.documentation_url}}">Documentation</a>
+    <span>&nbsp;-&nbsp;</span>
+    <a href="{{page.repo_url}}">Repository</a>
+</p>
+
+<div class="h-line"></div>
+
+<div id="carouselScreenshots" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    {% for item in page.screenshots %}
+    <button type="button" data-bs-target="#carouselScreenshots" data-bs-slide-to="{{item.idx}}"
+        class="{% if item.idx == 0 %}active{% endif %}" aria-current="true" aria-label="{{item.name}}"></button>
+    {% endfor %}
+  </div>
+  <div class="carousel-inner">
+    {% for item in page.screenshots %}
+    <div class="carousel-item {% if item.idx == 0 %}active{% endif %}">
+      <img src="{{item.src | absolute_url}}" class="d-block w-100" alt="{{item.name}}">
+    </div>
+    {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="h-line"></div>
+
+<!-- Space for additional content from tool-specific page -->
+{{ page.content }}
