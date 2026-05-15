@@ -63,6 +63,34 @@
     margin: 20px 0;
 }
 
+.border-red {
+    border-color: rgba(250, 0, 0, 0.5);
+}
+.border-green {
+    border-color: rgba(0, 124, 0, 0.5);
+}
+.border-blue {
+    border-color: rgba(0, 0, 252, 0.5);
+}
+.border-purple {
+    border-color: rgba(124, 1, 124, 0.5);
+}
+.border-yellow {
+    border-color: rgba(255, 255, 0, 0.5);
+}
+.border-orange {
+    border-color: rgba(255, 166, 0, 0.5);
+}
+.border-pink {
+    border-color: pink;
+}
+.border-teal {
+    border-color: rgba(2, 139, 139, 0.5);
+}
+.border-lime {
+    border-color: rgba(0, 252, 0, 0.5);
+}
+
 /* General carousel rules */
 .carousel-control-next:hover, .carousel-control-prev:hover {
     background-color: #ffffff48;
@@ -92,6 +120,28 @@
 
 #toolsCarousel {
     max-width: 900px;
+}
+
+#toolsCarousel .card {
+    margin-right: 20px;
+    flex: 0 0 calc(100% / 3 - 20px) !important;
+    border-width: 2px;
+}
+
+#toolsCarousel .card-img-top {
+    height: 140px;
+}
+
+#toolsCarousel .card-text {
+    min-height: 115px;
+}
+
+#toolsCarousel .carousel-inner {
+    padding-left: 25px;
+}
+
+#toolsCarousel .carousel-control-next {
+    right: -5px;
 }
 
 /* Multi-item carousel. Adapted from:
