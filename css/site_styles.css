@@ -63,6 +63,16 @@
     margin: 20px 0;
 }
 
+/* General carousel rules */
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: #ffffff48;
+}
+.carousel-dark .carousel-control-next:hover, .carousel-dark .carousel-control-prev:hover {
+    background-color: #00000048;
+}
+
+/* Specific carousel rules */
+
 #carouselScreenshots {
     padding: 20px;
     border: 3px solid #8080804d;
@@ -73,9 +83,58 @@
 
 #carouselScreenshots .carousel-control-prev,
 #carouselScreenshots .carousel-control-next {
-    width: 5%
+    width: 5%;
 }
 
 #carouselScreenshots .carousel-inner {
     height: 100%;
 }
+
+#toolsCarousel {
+    max-width: 900px;
+}
+
+/* Multi-item carousel. Adapted from:
+https://gist.github.com/viniciusmachado106/c1fc350ef03a14a21a45235c80da5b9f */
+
+.multi-item-carousel .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.multi-item-carousel .carousel-inner > .carousel-item {
+    flex: 0 0 33.333%;
+    display: none;
+    flex-wrap: nowrap;
+    overflow: visible;
+    transition: 500ms ease-in-out transform;
+    position: relative;
+}
+
+.multi-item-carousel .carousel-inner > .carousel-item.active {
+    display: flex;
+}
+
+.multi-item-carousel .carousel-inner > .carousel-item > .card {
+    flex: 0 0 calc(100% / 3);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item.active.carousel-item-start {
+    transform: translateX(-33.333%);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item.active.carousel-item-end {
+    transform: translateX(33.333%);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item-next,
+.multi-item-carousel .carousel-inner .carousel-item-next.carousel-item-start {
+    transform: translateX(33.333%);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item-prev,
+.multi-item-carousel .carousel-inner .carousel-item-prev.carousel-item-end {
+    transform: translateX(-33.333%);
+}
+  
