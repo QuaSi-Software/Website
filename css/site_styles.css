@@ -3,17 +3,15 @@
     max-height: 90px;
 }
 
-#navbar {
-    width: 100%;
-}
-
 #navbar .navbar-nav {
-    width: 50%;
     font-family: 'Source Code Pro', monospace;
 }
 
+.navbar .container {
+    max-width: 960px;
+}
+
 .navbar .container p {
-    width: 100%;
     padding-left: 8px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -28,6 +26,7 @@
 
 .content {
     font-size: 18px;
+    max-width: 960px;
 }
 
 .content .row {
@@ -36,6 +35,18 @@
 
 .content h2 {
     margin-top: 40px;
+}
+
+.footer .container {
+    max-width: 960px;
+}
+
+.gh-logo i {
+    font-size: 1.0rem !important;
+}
+
+.dot-separator {
+    font-weight: 900;
 }
 
 .post-divider {
@@ -61,6 +72,12 @@
     width: 100%;
     border-top: 1px solid #80808075;
     margin: 20px 0;
+}
+
+#homeKeyVisual {
+    width: 75%;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .border-red {
