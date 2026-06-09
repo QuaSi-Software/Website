@@ -37,10 +37,6 @@
     margin-top: 40px;
 }
 
-.footer .container {
-    max-width: 960px;
-}
-
 .gh-logo i {
     font-size: 1.0rem !important;
 }
@@ -79,6 +75,58 @@
     max-width: 720px;
     margin: 0 auto;
 }
+
+/* Footer styles */
+.footer .container {
+    max-width: 960px;
+}
+
+footer.bg-light {
+    color: rgb(46, 46, 46);
+}
+
+footer.bg-light a:link, footer.bg-light a:visited,
+footer.bg-light a:hover, footer.bg-light a:active {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+footer.bg-light .text-muted {
+    color: #5f6163 !important
+}
+
+footer.bg-light .text-muted a:link,
+footer.bg-light .text-muted a:visited,
+footer.bg-light .text-muted a:hover,
+footer.bg-light .text-muted a:active {
+    color: #5f6163 !important;
+    text-decoration: none;
+}
+
+footer.bg-dark {
+    background-color: #1a2530 !important;
+    color: white;
+}
+
+footer.bg-dark a:link, footer.bg-dark a:visited,
+footer.bg-dark a:hover, footer.bg-dark a:active {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bg-dark .text-muted {
+    color: #9ea1a4 !important
+}
+
+footer.bg-dark .text-muted a:link,
+footer.bg-dark .text-muted a:visited,
+footer.bg-dark .text-muted a:hover,
+footer.bg-dark .text-muted a:active {
+    color: #9ea1a4 !important;
+    text-decoration: none;
+}
+
+/* Border styles for cards */
 
 .border-red {
     border-color: rgba(250, 0, 0, 0.5);

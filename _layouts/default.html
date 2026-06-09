@@ -72,7 +72,7 @@
         </section>
 
         <!-- Footer-->
-        <footer class="footer bg-light">
+        <footer class="footer {% if layout.show_dark_footer %}bg-dark{% else %}bg-light{% endif %}">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 h-100 text-center my-auto">
@@ -82,12 +82,13 @@
                             <li class="list-inline-item"><a href="{{'/contact' | absolute_url}}">Contact</a></li>
                             <li class="list-inline-item dot-separator">⋅</li>
                             <li class="list-inline-item gh-logo">
-                                <a href="https://github.com/QuaSi-Software"><i class="bi-github fs-3"></i></a>
+                                <a href="https://github.com/QuaSi-Software/Website"><i class="bi-github fs-3"></i></a>
                             </li>
                         </ul>
                         <p class="text-muted small mb-4 mb-lg-0">
-                            &copy; 2026 QuaSi Software Team - Released under
-                            <a href="https://github.com/QuaSi-Software/Website/blob/main/LICENSE.md">MIT license</a>
+                            &copy; 2026 QuaSi Software Team - See
+                            <a href="https://github.com/QuaSi-Software/Website/blob/main/LICENSE.md">GitHub</a>
+                            for details and license
                         </p>
                     </div>
                 </div>
