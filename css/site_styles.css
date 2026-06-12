@@ -76,6 +76,90 @@
     margin: 0 auto;
 }
 
+/* Cooperation band (on home page)*/
+.full-width-band {
+    width: 100%;
+}
+
+.dark a:link, .dark a:visited, .dark a:active {
+    color: #7f7fff;
+}
+
+.dark a:hover {
+    color: #6868d4;
+}
+
+.dark .text-muted {
+    color: #9ba7b1 !important;
+}
+
+.full-width-band.dark {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.coop-band-content {
+    max-width: 960px;
+}
+
+#coop-band-header-secondary {
+    padding-top: 30px;
+}
+
+#coop-band-header-primary {
+    margin: 5px 0 30px 0;
+    font-size: 1.5rem;
+}
+
+.coop-band-partner-card {
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.coop-band-partner-logo {
+    max-height: 75px;
+}
+
+.coop-band-partner-header {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.coop-band-partner-link {
+    margin-top: 15px;
+}
+
+#coop-band-tools-column {
+    margin-bottom: 30px;
+}
+
+.coop-band-tools-card {
+    background-color: #4f5c6c;
+    margin: 15px 0;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.coop-band-card-logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.coop-band-card-subtitle {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.coop-band-card-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.coop-band-card-text {
+    margin-bottom: 10px;
+}
+
 /* Footer styles */
 .footer .container {
     max-width: 960px;
@@ -126,6 +210,69 @@ footer.bg-dark .text-muted a:active {
     text-decoration: none;
 }
 
+/* Coloured text styles */
+
+.text-red, .text-red a:link, .text-red a:visited, .text-red a:active {
+    color: rgba(250, 0, 0);
+}
+.text-red a:hover {
+    color: rgb(186, 0, 0);
+}
+.text-green, .text-green a:link, .text-green a:visited, .text-green a:active {
+    color: rgba(0, 124, 0);
+}
+.text-green a:hover {
+    color: rgb(0, 101, 0);
+}
+.text-blue, .text-blue a:link, .text-blue a:visited, .text-blue a:active {
+    color: rgb(118, 118, 255);
+}
+.text-blue a:hover {
+    color: rgb(89, 89, 189);
+}
+.text-purple, .text-purple a:link, .text-purple a:visited, .text-purple a:active {
+    color: rgba(124, 1, 124);
+}
+.text-purple a:hover {
+    color: rgb(102, 1, 102);
+}
+.text-yellow, .text-yellow a:link, .text-yellow a:visited, .text-yellow a:active {
+    color: rgba(255, 255, 0);
+}
+.text-yellow a:hover {
+    color: rgb(192, 192, 0);
+}
+.text-gold, .text-gold a:link, .text-gold a:visited, .text-gold a:active {
+    color: rgb(235, 176, 16);
+}
+.text-gold a:hover {
+    color: rgb(189, 142, 12);
+}
+.text-orange, .text-orange a:link, .text-orange a:visited, .text-orange a:active {
+    color: rgb(229, 118, 0);
+}
+.text-orange a:hover {
+    color: rgb(168, 87, 1);
+}
+.text-pink, .text-pink a:link, .text-pink a:visited, .text-pink a:active {
+    color: pink;
+}
+.text-pink a:hover {
+    color: rgb(179, 133, 141);
+}
+.text-teal, .text-teal a:link, .text-teal a:visited, .text-teal a:active {
+    color: rgba(2, 139, 139);
+}
+.text-teal a:hover {
+    color: rgb(1, 100, 100);
+}
+.text-lime, .text-lime a:link, .text-lime a:visited, .text-lime a:active {
+    color: rgba(0, 252, 0);
+}
+.text-lime a:hover {
+    color: rgb(0, 189, 0);
+}
+
 /* Border styles for cards */
 
 .border-red {
@@ -142,6 +289,9 @@ footer.bg-dark .text-muted a:active {
 }
 .border-yellow {
     border-color: rgba(255, 255, 0, 0.5);
+}
+.border-gold {
+    border-color: rgba(235, 177, 16, 0.521);
 }
 .border-orange {
     border-color: rgba(255, 166, 0, 0.5);

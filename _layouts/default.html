@@ -71,6 +71,82 @@
             {{ content }}
         </section>
 
+        {% if layout.has_coop_band %}
+        <section class="full-width-band dark">
+            <div class="container coop-band-content">
+                <div id="coop-band-header-secondary" class="row text-center text-muted">
+                    <span>COOPERATION</span>
+                </div>
+                <div id="coop-band-header-primary" class="row text-center">
+                    <span>⇆ Partners</span>
+                </div>
+
+                <div class="row">
+                    <div id="coop-band-partners-column" class="col-lg-6">
+                        <div class="coop-band-partner-card">
+                            <img class="coop-band-partner-logo" src="{{'assets/logos/siz_energieplus.jpg' | absolute_url}}"/>
+                            <div class="coop-band-partner-header">Steinbeis-Innovationszentrum energieplus</div>
+                            <div class="coop-band-partner-text">
+                                Develops the open-source tools GenSim, ReSiE and SoDeLe for
+                                the use in publically funded research projects.
+                            </div>
+                            <div class="coop-band-partner-link">
+                                <a href="https://siz-energieplus.de">→ siz-energieplus.de</a>
+                            </div>
+                        </div>
+
+                        <div class="coop-band-partner-card">
+                            <img class="coop-band-partner-logo" src="{{'assets/logos/dbi.png' | absolute_url}}"/>
+                            <div class="coop-band-partner-header">Digital Building Industries AG</div>
+                            <div class="coop-band-partner-text">
+                                Develops, based on the open-source tools, user-friendly
+                                commercial apps for planers and enegry providers.
+                            </div>
+                            <div class="coop-band-partner-link">
+                                <a href="https://dbi-network.com">→ dbi-network.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="coop-band-tools-column" class="col-lg-6">
+                        <div id="coop-band-tools-header" class="text-muted">APPS OF DBI</div>
+
+                        <div class="card coop-band-tools-card border-orange">
+                            <img class="coop-band-card-logo" src="{{'assets/logos/lara.png' | absolute_url}}"/>
+                            <div class="coop-band-card-subtitle text-muted">BASED ON GENSIM</div>
+                            <div class="coop-band-card-header text-orange">lara</div>
+                            <div class="coop-band-card-text">
+                                Create demand profiles for heating, cooling and electricity
+                                directly.
+                            </div>
+                            <div class="coop-band-card-link text-orange"><a href="#">→ Learn more</a></div>
+                        </div>
+
+                        <div class="card coop-band-tools-card border-blue">
+                            <img class="coop-band-card-logo" src="{{'assets/logos/ralf.png' | absolute_url}}"/>
+                            <div class="coop-band-card-subtitle text-muted">BASED ON RESIE</div>
+                            <div class="coop-band-card-header text-blue">ralf</div>
+                            <div class="coop-band-card-text">
+                                Configure and simulate energy systems.
+                            </div>
+                            <div class="coop-band-card-link text-blue"><a href="#">→ Learn more</a></div>
+                        </div>
+
+                        <div class="card coop-band-tools-card border-gold">
+                            <img class="coop-band-card-logo" src="{{'assets/logos/sophia.png' | absolute_url}}"/>
+                            <div class="coop-band-card-subtitle text-muted">BASED ON SODELE</div>
+                            <div class="coop-band-card-header text-gold">sophia</div>
+                            <div class="coop-band-card-text">
+                                PV-yield simulation for roof, facade and field installations.
+                            </div>
+                            <div class="coop-band-card-link text-gold"><a href="#">→ Learn more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
         <!-- Footer-->
         <footer class="footer {% if layout.show_dark_footer %}bg-dark{% else %}bg-light{% endif %}">
             <div class="container">
