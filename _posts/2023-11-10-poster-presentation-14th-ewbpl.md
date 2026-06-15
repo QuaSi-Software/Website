@@ -12,7 +12,7 @@ You can view the (German) poster online [here]({{'static/231119_poster_14_pl_mee
 <!--more-->
 
 <div class="row">
-    <img class="col" src="{{'assets/poster_14_ewb.jpeg' | absolute_url}}" style="max-width: 350px;"/>
+    <img class="col" src="{{'static/poster_14_ewb.jpeg' | absolute_url}}" style="max-width: 350px;"/>
 </div>
 
 [Energiewendebauen](https://www.energiewendebauen.de/) is the official organisation tasked with connecting research groups funded by the Germany Ministry for Economy and Climate Action (BMWK) and provide a plattform for exchanging the results of research projects. The Projektleitungstreffen are regular conferences where participants of the various research projects can present new results and discuss current topics in workshops.
