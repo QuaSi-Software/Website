@@ -72,17 +72,17 @@
         </section>
 
         {% if layout.has_coop_band %}
-        <section class="full-width-band dark">
+        <section class="full-width-band dark-primary">
             <div class="container coop-band-content">
-                <div id="coop-band-header-secondary" class="row text-center text-muted">
+                <div class="coop-band-header-secondary row text-center text-muted">
                     <span>COOPERATION</span>
                 </div>
-                <div id="coop-band-header-primary" class="row text-center">
+                <div class="coop-band-header-primary row text-center">
                     <span>⇆ Partners</span>
                 </div>
 
                 <div class="row">
-                    <div id="coop-band-partners-column" class="col-lg-6">
+                    <div class="coop-band-partners-column col-lg-6">
                         <div class="coop-band-partner-card">
                             <img class="coop-band-partner-logo" src="{{'assets/logos/siz_energieplus_dark.png' | absolute_url}}"/>
                             <div class="coop-band-partner-header">Steinbeis-Innovationszentrum energieplus</div>
@@ -108,8 +108,8 @@
                         </div>
                     </div>
 
-                    <div id="coop-band-tools-column" class="col-lg-6">
-                        <div id="coop-band-tools-header" class="text-muted">APPS OF DBI</div>
+                    <div class="coop-band-tools-column col-lg-6">
+                        <div class="coop-band-tools-header text-muted">APPS OF DBI</div>
 
                         <div class="card coop-band-tools-card border-orange">
                             <img class="coop-band-card-logo" src="{{'assets/logos/lara.svg' | absolute_url}}"/>
@@ -140,6 +140,39 @@
                                 PV-yield simulation for roof, facade and field installations.
                             </div>
                             <div class="coop-band-card-link text-gold"><a href="#">→ Learn more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="full-width-band dark-secondary">
+            <div class="container coop-band-content">
+                <div class="row">
+                    <div class="coop-band-partners-column col-lg-6">
+                        <div class="coop-band-partner-card">
+                            <img class="coop-band-partner-logo" src="{{'assets/logos/maileconsulting.png' | absolute_url}}"/>
+                            <div class="coop-band-partner-header">Maile Consulting</div>
+                            <div class="coop-band-partner-text">
+                                Dr. Tobias Maile - some text
+                            </div>
+                            <div class="coop-band-partner-link">
+                                <a href="https://example.com">→ example.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="coop-band-tools-column col-lg-6">
+                        <div class="coop-band-tools-header text-muted">SOMETHING</div>
+
+                        <div class="card coop-band-tools-card border-light-gray">
+                            <img class="coop-band-card-logo" src="{{'assets/logos/gensim.svg' | absolute_url}}"/>
+                            <div class="coop-band-card-subtitle text-muted">MUTED TEXT</div>
+                            <div class="coop-band-card-header text-light-gray">name</div>
+                            <div class="coop-band-card-text">
+                                Description
+                            </div>
+                            <div class="coop-band-card-link text-light-gray"><a href="#">→ Learn more</a></div>
                         </div>
                     </div>
                 </div>
