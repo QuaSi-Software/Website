@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 We have released version 0.7.0 of our energy system simulation engine ReSiE. This release was developed over some time and contains many internal changes to better support various energy systems and use cases we envision for the future. However we are not done with refactoring and continue to improve our engine to cover a wider range of use cases. Please note that ReSiE in general is still in an early stage and might not be suited for use in projects without consultation on the current capabilities and limitations.
 
-The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi-Projekt](https://quasi-software.readthedocs.io).
+The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi project](https://quasi-software.readthedocs.io).
 
 <!--more-->
 

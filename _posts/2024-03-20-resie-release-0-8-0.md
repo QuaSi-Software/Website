@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 We have released version 0.8.0 of our energy system simulation engine ReSiE. This release builds on the changes of the previous release v0.7.0, which introduced a lot of new things in regards to how the energy flow and distribution works on busses. With v0.8.0 we finalise these changes and brought the simulation model of ReSiE more closely to a finished state as we envision it. There will be further changes and additional features down the line to address the current modelling challenges when working with district networks.
 
-The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi-Projekt](https://quasi-software.readthedocs.io).
+The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi project](https://quasi-software.readthedocs.io).
 
 <!--more-->
 
