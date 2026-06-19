@@ -24,6 +24,10 @@
     margin-right: auto;
 }
 
+.dropdown-toggle:after {
+    margin-left: -0.2rem;
+}
+
 .content {
     font-size: 18px;
     max-width: 960px;

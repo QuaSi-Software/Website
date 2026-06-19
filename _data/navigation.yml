@@ -11,6 +11,9 @@
       link: tools/resie
     - display_name: SoDeLe
       link: tools/sodele
+- name: Partners
+  is_dropdown: false
+  link: /#partners
 - name: News
   is_dropdown: false
   link: /news
