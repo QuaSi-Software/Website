@@ -85,6 +85,26 @@
     width: 100%;
 }
 
+.full-width-band.light-primary {
+    background-color: #9abad8;
+    color: black;
+}
+
+.full-width-band.light-secondary {
+    background-color: #6f8aa4;
+    color: black;
+}
+
+.full-width-band.dark-primary {
+    background-color: #354a5f;
+    color: white;
+}
+
+.full-width-band.dark-secondary {
+    background-color:  #2c3e50;
+    color: white;
+}
+
 .dark-primary a:link, .dark-primary a:visited, .dark-primary a:active,
 .dark-secondary a:link, .dark-secondary a:visited, .dark-secondary a:active {
     color: #7f7fff;
@@ -94,18 +114,16 @@
     color: #6868d4;
 }
 
+.light-secondary a:link, .light-secondary a:visited, .light-secondary a:active {
+    color: #0043a7;
+}
+
+.light-secondary a:hover {
+    color: #00378a;
+}
+
 .dark-primary .text-muted, .dark-secondary .text-muted {
     color: #9ba7b1 !important;
-}
-
-.full-width-band.dark-primary {
-    background-color: #2c3e50;
-    color: white;
-}
-
-.full-width-band.dark-secondary {
-    background-color: #354a5f;
-    color: white;
 }
 
 .coop-band-content {
@@ -114,7 +132,6 @@
 }
 
 .coop-band-header-primary {
-    margin: 5px 0 30px 0;
     font-size: 1.5rem;
 }
 
@@ -138,14 +155,22 @@
 
 .coop-band-tools-card {
     background-color: #4f5c6c;
-    margin: 15px 0;
+    margin: 0 0 15px 0;
     padding: 20px;
     border: 2px solid;
+}
+
+.light-secondary .coop-band-tools-card {
+    background-color: #7f9aba;
 }
 
 .coop-band-card-logo {
     max-width: 120px;
     max-height: 50px;
+}
+
+.coop-band-tools-header {
+    margin: 0 0 15px 0;
 }
 
 .coop-band-card-subtitle {
