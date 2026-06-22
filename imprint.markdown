@@ -4,7 +4,6 @@ layout: default
 ## Impressum
 #### Angaben gemäß § 5 DDG
 Steinbeis-Innovationszentrum energieplus  
-Hauptsitz Braunschweig  
 OFFICE am RINGGLEIS  
 Hamburger Straße 277  
 38114 Braunschweig  
@@ -49,11 +48,12 @@ Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 
 ### Urheberrecht
 Wo nicht anders angegeben sind Inhalte, Werke und der Quellcode der Seiten unter der MIT
-Lizenz veröffentlicht. [Der Lizenztext]({{'license' | absolute_url}}) definiert die
-Nutzungsbedingungen die jeglicher Nutzung unterliegen. Die darin genannten Personen sind als
-Autor*innen im Sinne des Urheberrechts zu verstehen. Dies umfasst nicht eingebundene und
-verlinkte externe Inhalte. Nur Inhalte, die Teil des Repository der Seiten sind, sind von
-der Lizenz gedeckt.
+Lizenz veröffentlicht. [Der Lizenztext](https://github.com/QuaSi-Software/Website/blob/main/LICENSE.md)
+definiert die Nutzungsbedingungen die jeglicher Nutzung unterliegen. Die darin genannten
+Personen sind als Autor:innen im Sinne des Urheberrechts zu verstehen. Dies umfasst nicht
+eingebundene und verlinkte externe Inhalte. Nur Inhalte, die Teil des Repository der Seiten
+sind, sind von der Lizenz gedeckt. **Bitte lesen Sie den Lizenztext aufmerksam**, da nicht
+alle Inhalte unter der MIT Lizenz veröffentlicht sind!
 
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die
 Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche
@@ -61,6 +61,7 @@ gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam
 bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
 wir derartige Inhalte umgehend entfernen.
 
-*Impressum vom <a href="https://www.impressum-generator.de">Impressum Generator</a> der
+### Zum Impressum
+Erstellt mit dem <a href="https://www.impressum-generator.de">Impressum Generator</a> der
 <a href="https://www.kanzlei-hasselbach.de/rechtsgebiete/familienrecht/">
-Kanzlei Hasselbach, Fachanwälte für Familienrecht</a>*
+Kanzlei Hasselbach, Fachanwälte für Familienrecht</a>
