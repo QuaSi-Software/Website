@@ -80,6 +80,11 @@
     margin: 0 auto;
 }
 
+#funding-container {
+    max-width: 960px;
+    padding: 30px 5px;
+}
+
 /* Cooperation band (on home page)*/
 .full-width-band {
     width: 100%;
