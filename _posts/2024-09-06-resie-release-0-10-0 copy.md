@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 We have released version 0.10.0 of our energy system simulation engine ReSiE. This release reworks how time is handled in the input of the simulation and how time is formatted in the profiles used by the engine. These changes both increase usability by allowing users to specify time in a more human-readable way as well as helping to clarify what the output means. Other changes since the last release include an improved implementation of geothermal probes and improvements of the mechanism to handle different temperatures of components processing heat.
 
-The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi-Projekt](https://quasi-software.readthedocs.io).
+The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi project](https://quasi-software.readthedocs.io).
 
 <!--more-->
 

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 We have released version 0.9.0 of our energy system simulation engine ReSiE. This release reworks how operational strategies, which are control mechanisms that extend beyond those covered by bus component, are implemented. In the new implementation components can be assigned control modules, that each control the operation of the component via defined callbacks. Multiple control modules can be combined in different ways to cover various use cases. Further improvements to this new implementation will likely follow in the future and will be based on the foundation laid with this update.
 
-The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi-Projekt](https://quasi-software.readthedocs.io).
+The latest release can be found [here](https://github.com/QuaSi-Software/resie/releases) and details are available on [the documentation of the QuaSi project](https://quasi-software.readthedocs.io).
 
 <!--more-->
 

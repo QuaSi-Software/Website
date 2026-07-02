@@ -1,18 +1,17 @@
 #header-logo {
     max-width: 400px;
-}
-
-#navbar {
-    width: 100%;
+    max-height: 90px;
 }
 
 #navbar .navbar-nav {
-    width: 50%;
     font-family: 'Source Code Pro', monospace;
 }
 
+.navbar .container {
+    max-width: 960px;
+}
+
 .navbar .container p {
-    width: 100%;
     padding-left: 8px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -25,8 +24,13 @@
     margin-right: auto;
 }
 
+.dropdown-toggle:after {
+    margin-left: -0.2rem;
+}
+
 .content {
     font-size: 18px;
+    max-width: 960px;
 }
 
 .content .row {
@@ -35,6 +39,14 @@
 
 .content h2 {
     margin-top: 40px;
+}
+
+.gh-logo i {
+    font-size: 1.0rem !important;
+}
+
+.dot-separator {
+    font-weight: 900;
 }
 
 .post-divider {
@@ -49,3 +61,425 @@
 .post-content {
     margin-top: 15px;
 }
+
+.tool-logo {
+    max-height: 100px;
+    margin-top: 15px;
+}
+
+.h-line {
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid #80808075;
+    margin: 20px 0;
+}
+
+#homeKeyVisual {
+    width: 75%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+#funding-container {
+    max-width: 960px;
+    padding: 30px 5px;
+}
+
+/* Cooperation band (on home page)*/
+.full-width-band {
+    width: 100%;
+}
+
+.full-width-band.light-primary {
+    background-color: #9abad8;
+    color: black;
+}
+
+.full-width-band.light-secondary {
+    background-color: #6f8aa4;
+    color: black;
+}
+
+.full-width-band.dark-primary {
+    background-color: #354a5f;
+    color: white;
+}
+
+.full-width-band.dark-secondary {
+    background-color:  #2c3e50;
+    color: white;
+}
+
+.dark-primary a:link, .dark-primary a:visited, .dark-primary a:active,
+.dark-secondary a:link, .dark-secondary a:visited, .dark-secondary a:active {
+    color: #7f7fff;
+}
+
+.dark-primary a:hover, .dark-secondary a:hover {
+    color: #6868d4;
+}
+
+.light-secondary a:link, .light-secondary a:visited, .light-secondary a:active {
+    color: #0043a7;
+}
+
+.light-secondary a:hover {
+    color: #00378a;
+}
+
+.dark-primary .text-muted, .dark-secondary .text-muted {
+    color: #9ba7b1 !important;
+}
+
+.coop-band-content {
+    max-width: 960px;
+    padding: 30px 0;
+}
+
+.coop-band-header-primary {
+    font-size: 1.5rem;
+}
+
+.coop-band-partner-card {
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+
+.coop-band-partner-logo {
+    max-height: 75px;
+}
+
+.coop-band-partner-header {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.coop-band-partner-link {
+    margin-top: 15px;
+}
+
+.coop-band-tools-card {
+    background-color: #21364a;
+    margin: 0 0 15px 0;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.light-secondary .coop-band-tools-card {
+    background-color: #7f9aba;
+}
+
+.coop-band-card-logo {
+    max-width: 120px;
+    max-height: 50px;
+}
+
+.coop-band-tools-header {
+    margin: 0 0 15px 0;
+}
+
+.coop-band-card-subtitle {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.coop-band-card-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.coop-band-card-text {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer .container {
+    max-width: 960px;
+}
+
+footer.bg-light {
+    color: rgb(46, 46, 46);
+}
+
+footer.bg-light a:link, footer.bg-light a:visited,
+footer.bg-light a:hover, footer.bg-light a:active {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+footer.bg-light .text-muted {
+    color: #5f6163 !important
+}
+
+footer.bg-light .text-muted a:link,
+footer.bg-light .text-muted a:visited,
+footer.bg-light .text-muted a:hover,
+footer.bg-light .text-muted a:active {
+    color: #5f6163 !important;
+    text-decoration: none;
+}
+
+footer.bg-dark {
+    background-color: #1a2530 !important;
+    color: white;
+}
+
+footer.bg-dark a:link, footer.bg-dark a:visited,
+footer.bg-dark a:hover, footer.bg-dark a:active {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bg-dark .text-muted {
+    color: #9ea1a4 !important
+}
+
+footer.bg-dark .text-muted a:link,
+footer.bg-dark .text-muted a:visited,
+footer.bg-dark .text-muted a:hover,
+footer.bg-dark .text-muted a:active {
+    color: #9ea1a4 !important;
+    text-decoration: none;
+}
+
+/* Coloured text styles */
+
+.text-red, .text-red a:link, .text-red a:visited, .text-red a:active {
+    color: rgba(250, 0, 0);
+}
+.text-red a:hover {
+    color: rgb(186, 0, 0);
+}
+.text-green, .text-green a:link, .text-green a:visited, .text-green a:active {
+    color: rgba(0, 124, 0);
+}
+.text-green a:hover {
+    color: rgb(0, 101, 0);
+}
+.text-blue, .text-blue a:link, .text-blue a:visited, .text-blue a:active {
+    color: rgb(118, 118, 255);
+}
+.text-blue a:hover {
+    color: rgb(89, 89, 189);
+}
+.text-light-blue, .text-light-blue a:link, .text-light-blue a:visited, .text-light-blue a:active {
+    color: rgb(157, 157, 246);
+}
+.text-light-blue a:hover {
+    color: rgb(122, 122, 192);
+}
+.text-purple, .text-purple a:link, .text-purple a:visited, .text-purple a:active {
+    color: rgba(124, 1, 124);
+}
+.text-purple a:hover {
+    color: rgb(102, 1, 102);
+}
+.text-yellow, .text-yellow a:link, .text-yellow a:visited, .text-yellow a:active {
+    color: rgba(255, 255, 0);
+}
+.text-yellow a:hover {
+    color: rgb(192, 192, 0);
+}
+.text-gold, .text-gold a:link, .text-gold a:visited, .text-gold a:active {
+    color: rgb(235, 176, 16);
+}
+.text-gold a:hover {
+    color: rgb(189, 142, 12);
+}
+.text-orange, .text-orange a:link, .text-orange a:visited, .text-orange a:active {
+    color: rgb(255, 120, 0);
+}
+.text-orange a:hover {
+    color: rgb(207, 97, 0);
+}
+.text-pink, .text-pink a:link, .text-pink a:visited, .text-pink a:active {
+    color: pink;
+}
+.text-pink a:hover {
+    color: rgb(179, 133, 141);
+}
+.text-teal, .text-teal a:link, .text-teal a:visited, .text-teal a:active {
+    color: rgba(2, 139, 139);
+}
+.text-teal a:hover {
+    color: rgb(1, 100, 100);
+}
+.text-lime, .text-lime a:link, .text-lime a:visited, .text-lime a:active {
+    color: rgba(0, 252, 0);
+}
+.text-lime a:hover {
+    color: rgb(0, 189, 0);
+}
+.text-white, .text-white a:link, .text-white a:visited, .text-white a:active {
+    color: rgb(255, 255, 255);
+}
+.text-white a:hover {
+    color: rgb(221, 220, 220);
+}
+.text-black, .text-black a:link, .text-black a:visited, .text-black a:active {
+    color: rgb(0, 0, 0);
+}
+.text-black a:hover {
+    color: rgb(56, 56, 56);
+}
+.text-light-gray, .text-light-gray a:link, .text-light-gray a:visited, .text-light-gray a:active {
+    color: rgb(197, 197, 197);
+}
+.text-light-gray a:hover {
+    color: rgb(156, 156, 156);
+}
+.text-dark-hray, .text-dark-hray a:link, .text-dark-hray a:visited, .text-dark-hray a:active {
+    color: rgb(53, 53, 53);
+}
+.text-dark-hray a:hover {
+    color: rgb(75, 75, 75);
+}
+/* Border styles for cards */
+
+.border-red {
+    border-color: rgba(250, 0, 0, 0.5);
+}
+.border-green {
+    border-color: rgba(0, 124, 0, 0.5);
+}
+.border-blue {
+    border-color: rgba(0, 0, 252, 0.5);
+}
+.border-light-blue {
+    border-color: rgba(171, 171, 255, 0.5);
+}
+.border-purple {
+    border-color: rgba(124, 1, 124, 0.5);
+}
+.border-yellow {
+    border-color: rgba(255, 255, 0, 0.5);
+}
+.border-gold {
+    border-color: rgba(235, 177, 16, 0.521);
+}
+.border-orange {
+    border-color: rgba(255, 119, 0, 0.5);
+}
+.border-pink {
+    border-color: pink;
+}
+.border-teal {
+    border-color: rgba(2, 139, 139, 0.5);
+}
+.border-lime {
+    border-color: rgba(0, 252, 0, 0.5);
+}
+.border-white {
+    border-color: rgb(255, 255, 255, 0.5);
+}
+.border-black {
+    border-color: rgb(0, 0, 0, 0.5);
+}
+.border-light-gray {
+    border-color: rgb(197, 197, 197, 0.5);
+}
+.border-dark-gray {
+    border-color: rgb(53, 53, 53, 0.5);
+}
+
+/* General carousel rules */
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: #ffffff48;
+}
+.carousel-dark .carousel-control-next:hover, .carousel-dark .carousel-control-prev:hover {
+    background-color: #00000048;
+}
+
+/* Specific carousel rules */
+
+#carouselScreenshots {
+    padding: 20px;
+    border: 3px solid #8080804d;
+    border-radius: 10px;
+    max-width: 1000px;
+    height: 500px;
+}
+
+#carouselScreenshots .carousel-control-prev,
+#carouselScreenshots .carousel-control-next {
+    width: 5%;
+}
+
+#carouselScreenshots .carousel-inner {
+    height: 100%;
+}
+
+#toolsCarousel {
+    max-width: 900px;
+}
+
+#toolsCarousel .card {
+    margin-right: 20px;
+    flex: 0 0 calc(100% / 3 - 20px) !important;
+    border-width: 2px;
+}
+
+#toolsCarousel .card-img-top {
+    height: 140px;
+}
+
+#toolsCarousel .card-text {
+    min-height: 115px;
+}
+
+#toolsCarousel .carousel-inner {
+    padding-left: 25px;
+}
+
+#toolsCarousel .carousel-control-next {
+    right: -5px;
+}
+
+/* Multi-item carousel. Adapted from:
+https://gist.github.com/viniciusmachado106/c1fc350ef03a14a21a45235c80da5b9f */
+
+.multi-item-carousel .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.multi-item-carousel .carousel-inner > .carousel-item {
+    display: none;
+    flex-wrap: nowrap;
+    overflow: visible;
+    transition: 500ms ease-in-out transform;
+    position: relative;
+}
+
+.multi-item-carousel .carousel-inner > .carousel-item.active {
+    display: flex;
+}
+
+.multi-item-carousel .carousel-inner > .carousel-item > .card {
+    flex: 0 0 calc(100% / 3);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item.active.carousel-item-start {
+    transform: translate3d(-33.333%, 0, 0);
+    -webkit-transform: translate3d(-33.333%, 0, 0);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item.active.carousel-item-end {
+    transform: translate3d(33.333%, 0, 0);
+    -webkit-transform: translate3d(33.333%, 0, 0);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item-next,
+.multi-item-carousel .carousel-inner .carousel-item-next.carousel-item-start {
+    transform: translate3d(33.333%, 0, 0);
+    -webkit-transform: translate3d(33.333%, 0, 0);
+}
+
+.multi-item-carousel .carousel-inner .carousel-item-prev,
+.multi-item-carousel .carousel-inner .carousel-item-prev.carousel-item-end {
+    transform: translate3d(-33.333%, 0, 0);
+    -webkit-transform: translate3d(-33.333%, 0, 0);
+}
+  

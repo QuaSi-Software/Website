@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 We have released version 2.16 of our building energy demand simulation tool GenSim. This release focuses on updating the underlying simulation engine EnergyPlus™, via intermediary framework OpenStudio, to the newest version and on making GenSim ready to be integrated into a larger ecosystem of tools. The used OpenStudio version has been updated to 3.10, which in turn uses EnergyPlus™ version 25.1. The mechanism for reading the outputs from the simulation has been reworked and the auxiliary outputs in "Gebäudebilanz" (the building energy balance) have been refactored to use different output variables of EnergyPlus™. It is now also possible to import (some) IFC models in addition to OSM and IDF files. Furthermore it is no longer necessary to use DDY files for the automatic sizing of the heating and cooling systems, the new default behaviour uses the weather data that is already a required input.
 
-The latest releases if GenSim can be found [here](https://github.com/QuaSi-Software/GenSim/releases) and a user manual is available on [the documentation of the QuaSi-Projekt](https://quasi-software.readthedocs.io/en/latest/gensim_user_manual/).
+The latest releases of GenSim can be found [here](https://github.com/QuaSi-Software/GenSim/releases) and a user manual is available on [the documentation of the QuaSi project](https://quasi-software.readthedocs.io/en/latest/gensim_user_manual/).
 
 <!--more-->
 

@@ -1,37 +1,93 @@
 ---
 layout: default
+show_dark_footer: true
+is_home_page: true
 ---
 <div class="row">
-    <img src="{{'assets/quasi_key_visual.jpg' | absolute_url}}" style="max-width: 60%; margin: 0 auto;"/>
+    <img id="homeKeyVisual" src="{{'assets/quasi_key_visual.jpg' | absolute_url}}"/>
 </div>
 
 <div class="row" style="padding-top: 0px">
-    QuaSi is an urban simulation software for modelling the energy demand and energy supply of
-    buildings on city district scale. It focuses on renewable energy, sector-coupling and
-    customized operational strategies.
+    QuaSi is an open source software bundle for modelling the energy demand and energy
+    supply of buildings on a city district scale. It focuses on renewable energy,
+    sector-coupling and non-linear operational & control strategies in early planning
+    stages of both new constructions and retrofits.
+</div>
+
+<div class="row" style="padding: 0 0 10px 0; margin-bottom: 10px;">
+    The bundle consists of several tools, each focusing on a part of the whole. These
+    include simulations as well as utility tools to facilitate a workflow for using
+    QuaSi. Have a look!
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="toolsCarousel" class="carousel carousel-dark multi-item-carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card border-red">
+                        <img src="{{'assets/logos/gensim.svg' | absolute_url}}" class="card-img-top p-3" alt="GenSim logo">
+                        <div class="card-body">
+                            <p class="card-text">Energy demand simulation for buildings based on EnergyPlus™</p>
+                            <a href="{{'/tools/gensim' | absolute_url}}">→ Explore GenSim</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card border-green">
+                        <img src="{{'assets/logos/sodele.svg' | absolute_url}}" class="card-img-top p-3" alt="SoDeLe logo">
+                        <div class="card-body">
+                            <p class="card-text">Easy-to-use tool to calculate PV yield profiles for customizable systems</p>
+                            <a href="{{'/tools/sodele' | absolute_url}}">→ Explore SoDeLe</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card border-blue">
+                        <img src="{{'assets/logos/resie.svg' | absolute_url}}" class="card-img-top p-3" alt="ReSiE logo">
+                        <div class="card-body">
+                            <p class="card-text">Performs non-linear operational simulation and optimisation of energy systems</p>
+                            <a href="{{'/tools/resie' | absolute_url}}">→ Explore ReSiE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#toolsCarousel" data-bs-slide="prev" style="width: 5%;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#toolsCarousel" data-bs-slide="next" style="width: 5%;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 </div>
 
 <div class="row" style="margin-top: 40px">
-    <img class="col" src="{{'assets/readthedocs_logo.svg' | absolute_url}}" style="max-width: 250px; padding: 0"/>
+    <img class="col" src="{{'assets/logos/readthedocs.svg' | absolute_url}}" style="max-width: 250px; padding: 0"/>
     <span class="col" style="padding-top: 15px">
         <a href="https://quasi-software.readthedocs.io">quasi-software.readthedocs.io</a>
     </span>
 </div>
 
 <div class="row">
-    Detailed information about all the software components in our online documentation.
+    You can find detailed information about all the software components in our online documentation.
 </div>
 
 <div class="row" style="margin-top: 40px">
-    <img class="col" src="{{'assets/github_mark.png' | absolute_url}}" style="max-width: 50px; max-height: 50px; margin-top: 5px; padding: 0"/>
-    <img class="col" src="{{'assets/github_logo.png' | absolute_url}}" style="max-width: 160px; padding: 0"/>
-    <span class="col" style="padding-top: 25px">
+    <img class="col" src="{{'assets/logos/github_mark.png' | absolute_url}}" style="max-width: 45px; max-height: 45px; margin-top: 5px; padding: 0"/>
+    <img class="col" src="{{'assets/logos/github.png' | absolute_url}}" style="max-width: 120px; padding: 5px 0 0 0"/>
+    <span class="col" style="padding-top: 20px">
         <a href="https://github.com/QuaSi-Software">github.com/QuaSi-Software</a>
     </span>
 </div>
 
 <div class="row">
-    We invite you to download the software and contribute to our development on GitHub. 
+    We invite you to download the tools and contribute to the development on GitHub.
 </div>
 
 <div class="row" style="margin-top: 50px">
