@@ -446,7 +446,6 @@ https://gist.github.com/viniciusmachado106/c1fc350ef03a14a21a45235c80da5b9f */
 }
 
 .multi-item-carousel .carousel-inner > .carousel-item {
-    flex: 0 0 33.333%;
     display: none;
     flex-wrap: nowrap;
     overflow: visible;
@@ -463,20 +462,24 @@ https://gist.github.com/viniciusmachado106/c1fc350ef03a14a21a45235c80da5b9f */
 }
 
 .multi-item-carousel .carousel-inner .carousel-item.active.carousel-item-start {
-    transform: translateX(-33.333%);
+    transform: translate3d(-33.333%, 0, 0);
+    -webkit-transform: translate3d(-33.333%, 0, 0);
 }
 
 .multi-item-carousel .carousel-inner .carousel-item.active.carousel-item-end {
-    transform: translateX(33.333%);
+    transform: translate3d(33.333%, 0, 0);
+    -webkit-transform: translate3d(33.333%, 0, 0);
 }
 
 .multi-item-carousel .carousel-inner .carousel-item-next,
 .multi-item-carousel .carousel-inner .carousel-item-next.carousel-item-start {
-    transform: translateX(33.333%);
+    transform: translate3d(33.333%, 0, 0);
+    -webkit-transform: translate3d(33.333%, 0, 0);
 }
 
 .multi-item-carousel .carousel-inner .carousel-item-prev,
 .multi-item-carousel .carousel-inner .carousel-item-prev.carousel-item-end {
-    transform: translateX(-33.333%);
+    transform: translate3d(-33.333%, 0, 0);
+    -webkit-transform: translate3d(-33.333%, 0, 0);
 }
   
