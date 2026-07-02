@@ -159,7 +159,7 @@
 }
 
 .coop-band-tools-card {
-    background-color: #405b75;
+    background-color: #21364a;
     margin: 0 0 15px 0;
     padding: 20px;
     border: 2px solid;
@@ -263,6 +263,12 @@ footer.bg-dark .text-muted a:active {
 .text-blue a:hover {
     color: rgb(89, 89, 189);
 }
+.text-light-blue, .text-light-blue a:link, .text-light-blue a:visited, .text-light-blue a:active {
+    color: rgb(157, 157, 246);
+}
+.text-light-blue a:hover {
+    color: rgb(122, 122, 192);
+}
 .text-purple, .text-purple a:link, .text-purple a:visited, .text-purple a:active {
     color: rgba(124, 1, 124);
 }
@@ -339,6 +345,9 @@ footer.bg-dark .text-muted a:active {
 }
 .border-blue {
     border-color: rgba(0, 0, 252, 0.5);
+}
+.border-light-blue {
+    border-color: rgba(171, 171, 255, 0.5);
 }
 .border-purple {
     border-color: rgba(124, 1, 124, 0.5);
