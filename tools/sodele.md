@@ -1,7 +1,7 @@
 ---
 layout: tool
 logo_url: assets/logos/sodele.svg
-documentation_url: https://github.com/QuaSi-Software/SoDeLe/blob/main/README.md
+documentation_url: https://quasi-software.readthedocs.io/en/latest/sodele_overview/
 repo_url: https://github.com/QuaSi-Software/SoDeLe
 screenshots:
   - idx: 0
