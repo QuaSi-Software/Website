@@ -1,7 +1,7 @@
 ---
 layout: tool
 logo_url: assets/logos/resie.svg
-documentation_url: https://quasi-software.readthedocs.io/en/latest/resie_installation/
+documentation_url: https://quasi-software.readthedocs.io/en/latest/resie_overview/
 repo_url: https://github.com/QuaSi-Software/resie
 screenshots:
   - idx: 0
