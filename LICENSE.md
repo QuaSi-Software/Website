@@ -36,6 +36,7 @@ added the file.
 For terms and conditions of use please check each source individually.
 
 * QuaSi key visual & logos & icons, and logos for tools GenSim, ReSiE and SoDeLe: Copyright (c) 2023 by Jürgen Benesch under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+* Logos for tools SUSI & SIMON: Copyright (c) 2026 by siz energieplus under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 * GitHub logo and mark: [https://github.com/logos](https://github.com/logos) under [GitHub terms and services](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)
 * OpenMod logo: [https://openmod-initiative.org/](https://openmod-initiative.org/) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 * Readthedocs logo: [https://brand-guidelines.readthedocs.org/](https://brand-guidelines.readthedocs.org/) under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)

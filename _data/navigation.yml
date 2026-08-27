@@ -11,6 +11,8 @@
       link: tools/resie
     - display_name: SoDeLe
       link: tools/sodele
+    - display_name: SUSI
+      link: tools/susi
 - name: Partners
   is_dropdown: false
   link: /#partners
