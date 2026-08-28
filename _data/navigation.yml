@@ -9,6 +9,8 @@
       link: tools/gensim
     - display_name: ReSiE
       link: tools/resie
+    - display_name: SIMON
+      link: tools/simon
     - display_name: SoDeLe
       link: tools/sodele
     - display_name: SUSI
