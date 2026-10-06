@@ -17,4 +17,4 @@ You can view the (German) poster online [here]({{'static/231119_poster_14_pl_mee
 
 [Energiewendebauen](https://www.energiewendebauen.de/) is the official organisation tasked with connecting research groups funded by the Germany Ministry for Economy and Climate Action (BMWK) and provide a plattform for exchanging the results of research projects. The Projektleitungstreffen are regular conferences where participants of the various research projects can present new results and discuss current topics in workshops.
 
-The poster provides an overview of the newly developed simulation methodology of ReSi, the computational engine for the simulation of energy systems.
+The poster provides an overview of the newly developed simulation methodology of ReSiE, the computational engine for the simulation of energy systems.
