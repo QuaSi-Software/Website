@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Release of new ReSiE version 1.1.0"
-date: 2026-10-06 11:00:00 +0200
+date: 2026-11-06 11:00:00 +0200
 categories: release
 excerpt_separator: <!--more-->
 ---
