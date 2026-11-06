@@ -18,7 +18,7 @@ The latest release can be found [here](https://github.com/QuaSi-Software/resie/r
 
 <!--more-->
 
-Listed below are the changes since the last release v1.1.0:
+Listed below are the changes since the last release v1.0.0:
 
 ## Major features
 * New user-facing `simulate()` function to handle logging and run management if used as a package. More details in the documentiation.
