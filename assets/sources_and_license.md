@@ -16,5 +16,6 @@ For terms and conditions of use please check each source individually.
 * Readthedocs logo: [https://brand-guidelines.readthedocs.org/](https://brand-guidelines.readthedocs.org/) under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 * BMWE funding disclaimer: [https://www.innovation-beratung-foerderung.de](https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Downloads/Unterlagen_INNO-KOM/inno-kom_bmwe-logo-mit-foerderzusatz.html), see also the [official government styleguide](https://styleguide.bundesregierung.gov.de/sg-de).
 * siz energieplus logo: Used in accordance to proprietary single-use non-transferable license. DO NOT REUSE.
-* DBI logo as well as logos for tools sophia, ralf & lara: Used in accordance to proprietary single-use non-transferable license. DO NOT REUSE.
+* DBI logos as well as logos for tools sophia, ralf & lara: Used in accordance to proprietary single-use non-transferable license. DO NOT REUSE.
+* FACT and TMM Group logos: Used in accordance to proprietary single-use non-transferable license. DO NOT REUSE.
 * Maile Consulting logo: Used in accordance to proprietary single-use non-transferable license. DO NOT REUSE.

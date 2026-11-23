@@ -147,10 +147,11 @@
 
 .coop-band-partner-logo {
     max-height: 75px;
+    margin-bottom: 10px;
 }
 
 .coop-band-partner-header {
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     font-size: 1.2rem;
 }
 
